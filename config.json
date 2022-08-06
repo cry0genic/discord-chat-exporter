@@ -7,13 +7,17 @@
             "channels": [
                 {
                     "name": "general/news",
-                    "enabled": false,
-                    "id": "595711919378268160"
+                    "enabled": true,
+                    "id": "595711919378268160",
+                    "after": "01-01-2020",
+                    "before": "01-01-2022"
                 },
                 {
                     "name": "general/welcome",
-                    "enabled": true,
-                    "id": "745072678079168654"
+                    "enabled": false,
+                    "id": "745072678079168654",
+                    "after": "01-01-2020",
+                    "before": "01-01-2022"
                 }
             ]
         },
@@ -25,7 +29,9 @@
                 {
                     "name": "Default/Rust General",
                     "enabled": true,
-                    "id": "487697923782475787"
+                    "id": "487697923782475787",
+                    "after": "01-01-2020",
+                    "before": "01-01-2022"
                 }
             ]
         }
